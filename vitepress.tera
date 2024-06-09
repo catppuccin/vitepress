@@ -1,0 +1,96 @@
+---
+whiskers:
+  version: 2.3.0
+  matrix:
+    - flavor: ["frappe", "macchiato", "mocha"]
+  filename: "theme/{{flavor.identifier}}.css"
+---
+
+{%- set palette = flavor.colors -%}
+/* Solid Colors and Sponsor Color */
+:root {
+  --vp-c-white: #{{ palette.text.hex }};
+  --vp-c-black: #{{ palette.base.hex }};
+  --vp-c-sponsor: #{{ palette.red.hex }};
+}
+{% set modes = ["light", "dark"] -%}
+{%- for mode in modes %}
+  {%- if mode == "light" -%}
+  {%- set palette = flavors["latte"].colors %}
+  {%- set paletteid = flavors["latte"].identifier %}
+:root {
+  {% else -%}
+  {%- set palette = flavor.colors %}
+  {%- set paletteid = flavor.identifier %}
+.dark {
+  {% endif -%}
+  /* Background Colors */
+  --vp-c-bg: #{{ palette.base.hex }};
+  --vp-c-bg-alt: #{{ palette.crust.hex }};
+  --vp-c-bg-elv: #{{ palette.base.hex }};
+  --vp-c-bg-soft: #{{ palette.surface0.hex }};
+
+  /* Border Colors */
+  --vp-c-border: #{{ palette.surface0.hex }};
+  --vp-c-divider: #{{ palette.surface0.hex }};
+  --vp-c-gutter: #{{ palette.surface1.hex }};
+
+  /* Text Colors */
+  --vp-c-text-1: #{{ palette.text.hex }};
+  --vp-c-text-2: #{{ palette.subtext1.hex }};
+  --vp-c-text-3: #{{ palette.subtext0.hex }};
+
+  /* Catppuccin Accents */
+  {% for color_name, color in palette -%}
+  --ctp-{{ paletteid }}-{{ color_name }}: #{{ color.hex }};
+  {% endfor %}
+
+  /* Color Palette */
+  {%- if mode == "light" %}
+  {%- set saturation = 10 %}
+  {%- set mix_amount = 0.5 %}
+  {%- set lightness_amount = 20 %}
+  {%- set opacity_mod = 0.14 %}
+  {%- set lightness_amount_gray = 30 %}
+  {%- else %}
+  {%- set saturation = 10 %}
+  {%- set mix_amount = 0.5 %}
+  {%- set lightness_amount = 20 %}
+  {%- set opacity_mod = 0.14 %}
+  {%- set lightness_amount_gray = 30 %}
+  {%- endif %}
+  --vp-c-gray-1: {{palette.surface1 | css_rgb}};
+  --vp-c-gray-2: {{palette.surface0 | css_rgb}};
+  --vp-c-gray-3: {{palette.base | css_rgb}};
+  {%- if mode == "light" %}
+  --vp-c-gray-soft: {{palette.base | sub(lightness=lightness_amount_gray) | mod(opacity=opacity_mod) | css_hsla}};
+  {%- else %}
+  --vp-c-gray-soft: {{palette.base | add(lightness=lightness_amount_gray) | mod(opacity=opacity_mod) | css_hsla}};
+  {%- endif %}
+
+  --vp-c-indigo-1: {{palette.blue | css_rgb}};
+  --vp-c-indigo-2: {{palette.blue | add(saturation=saturation) | css_rgb}};
+  --vp-c-indigo-3: {{palette.blue | mix(color=base, amount=mix_amount) | css_rgb}};
+  --vp-c-indigo-soft: {{palette.blue | sub(lightness=lightness_amount) | mod(opacity=opacity_mod) | css_hsla}};
+
+  --vp-c-purple-1: {{palette.mauve | css_rgb}};
+  --vp-c-purple-2: {{palette.mauve | add(saturation=saturation) | css_rgb}};
+  --vp-c-purple-3: {{palette.mauve | mix(color=base, amount=mix_amount) | css_rgb}};
+  --vp-c-purple-soft: {{palette.mauve | sub(lightness=lightness_amount) | mod(opacity=opacity_mod) | css_hsla}};
+
+  --vp-c-green-1: {{palette.green | css_rgb}};
+  --vp-c-green-2: {{palette.green | add(saturation=saturation) | css_rgb}};
+  --vp-c-green-3: {{palette.green | mix(color=base, amount=mix_amount) | css_rgb}};
+  --vp-c-green-soft: {{palette.green | sub(lightness=lightness_amount) | mod(opacity=opacity_mod) | css_hsla}};
+
+  --vp-c-yellow-1: {{palette.yellow | css_rgb}};
+  --vp-c-yellow-2: {{palette.yellow | add(saturation=saturation) | css_rgb}};
+  --vp-c-yellow-3: {{palette.yellow | mix(color=base, amount=mix_amount) | css_rgb}};
+  --vp-c-yellow-soft: {{palette.yellow | sub(lightness=lightness_amount) | mod(opacity=opacity_mod) | css_hsla}};
+
+  --vp-c-red-1: {{palette.red | css_rgb}};
+  --vp-c-red-2: {{palette.red | add(saturation=saturation) | css_rgb}};
+  --vp-c-red-3: {{palette.red | mix(color=base, amount=mix_amount) | css_rgb}};
+  --vp-c-red-soft: {{palette.red | sub(lightness=lightness_amount) | mod(opacity=opacity_mod) | css_hsla}};
+}
+{% endfor %}
