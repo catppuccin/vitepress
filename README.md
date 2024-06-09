@@ -1,14 +1,14 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/catppuccin/template">App</a>
+	Catppuccin for <a href="https://github.com/vuejs/vitepress">VitePress</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/template/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/template?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/issues"><img src="https://img.shields.io/github/issues/catppuccin/template?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/template/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/template?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/vitepress/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/vitepress?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/vitepress/issues"><img src="https://img.shields.io/github/issues/catppuccin/vitepress?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/vitepress/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/vitepress?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -36,19 +36,17 @@
 
 ## Usage
 
-1. Download the flavor of your choice.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
-3. Select the downloaded flavor file.
+1. Copy the `theme/` folder to the srcDir of your VitePress project.
+2. Modify the `theme/index.js` file to import the flavor you want to use.
+3. Done! You can also modify the `theme/<flavor>.js` file to customize the theme.
 
-<!-- The FAQ section is optional. Remove if needed.-->
-## 🙋 FAQ
-
-- Q: **_"How can I do X?"_**\
-  A: ...
+> [!NOTE]
+> Frappe is included in all flavors as the light mode variant.
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [42Willow](https://github.com/42willow)
+- [Strata Docs](https://github.com/StrataWM/strata/blob/5daa4f102a7a03bb73dbe84e43d7ae1cb64d2c54/docs/.vitepress/theme/colors.css)
 
 &nbsp;
 
