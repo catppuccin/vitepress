@@ -5,15 +5,13 @@ whiskers:
     - flavor: ["frappe", "macchiato", "mocha"]
   filename: "theme/{{flavor.identifier}}.css"
 ---
+/* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+/* https://catppuccin.com/palette */
 
-{%- set palette = flavor.colors -%}
-/* Solid Colors and Sponsor Color */
-:root {
-  --vp-c-white: #{{ palette.text.hex }};
-  --vp-c-black: #{{ palette.base.hex }};
-  --vp-c-sponsor: #{{ palette.red.hex }};
-}
 {% set modes = ["light", "dark"] -%}
+
+/* Example: Brand Customization */
+/*
 {%- for mode in modes %}
   {%- if mode == "light" -%}
   {%- set palette = flavors["latte"].colors %}
@@ -24,10 +22,40 @@ whiskers:
   {%- set paletteid = flavor.identifier %}
 .dark {
   {% endif -%}
+  --vp-c-brand-1: var(--ctp-{{ paletteid }}-red);
+  --vp-c-brand-2: var(--ctp-{{ paletteid }}-lavender);
+  --vp-c-brand-3: var(--ctp-{{ paletteid }}-mauve);
+}
+{%- endfor %}
+*/
+{% for mode in modes %}
+  {%- if mode == "light" -%}
+  {%- set palette = flavors["latte"].colors %}
+  {%- set paletteid = flavors["latte"].identifier %}
+:root {
+  {% else -%}
+  {%- set palette = flavor.colors %}
+  {%- set paletteid = flavor.identifier %}
+.dark {
+  /* Fix button text color */
+  --vp-button-brand-text: var(--ctp-{{ paletteid }}-crust) !important;
+  --vp-button-brand-hover-text: var(--ctp-{{ paletteid }}-crust) !important;
+
+  {% endif -%}
+  /* Solid Colors and Sponsor Color */
+  {%- if mode == "light" %}
+  --vp-c-white: #{{ palette.base.hex }};
+  --vp-c-black: #{{ palette.text.hex }};
+  {%- else %}
+  --vp-c-white: #{{ palette.text.hex }};
+  --vp-c-black: #{{ palette.base.hex }};
+  {%- endif %}
+  --vp-c-sponsor: #{{ palette.red.hex }};
+
   /* Background Colors */
   --vp-c-bg: #{{ palette.base.hex }};
-  --vp-c-bg-alt: #{{ palette.crust.hex }};
-  --vp-c-bg-elv: #{{ palette.base.hex }};
+  --vp-c-bg-alt: #{{ palette.mantle.hex }};
+  --vp-c-bg-elv: #{{ palette.crust.hex }};
   --vp-c-bg-soft: #{{ palette.surface0.hex }};
 
   /* Border Colors */

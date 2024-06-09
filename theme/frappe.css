@@ -1,15 +1,30 @@
-/* Solid Colors and Sponsor Color */
+/* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
+/* https://catppuccin.com/palette */
+
+/* Example: Brand Customization */
+/*
 :root {
-  --vp-c-white: #c6d0f5;
-  --vp-c-black: #303446;
-  --vp-c-sponsor: #e78284;
+  --vp-c-brand-1: var(--ctp-latte-red);
+  --vp-c-brand-2: var(--ctp-latte-lavender);
+  --vp-c-brand-3: var(--ctp-latte-mauve);
 }
+.dark {
+  --vp-c-brand-1: var(--ctp-frappe-red);
+  --vp-c-brand-2: var(--ctp-frappe-lavender);
+  --vp-c-brand-3: var(--ctp-frappe-mauve);
+}
+*/
 
 :root {
+  /* Solid Colors and Sponsor Color */
+  --vp-c-white: #eff1f5;
+  --vp-c-black: #4c4f69;
+  --vp-c-sponsor: #d20f39;
+
   /* Background Colors */
   --vp-c-bg: #eff1f5;
-  --vp-c-bg-alt: #dce0e8;
-  --vp-c-bg-elv: #eff1f5;
+  --vp-c-bg-alt: #e6e9ef;
+  --vp-c-bg-elv: #dce0e8;
   --vp-c-bg-soft: #ccd0da;
 
   /* Border Colors */
@@ -84,10 +99,19 @@
 }
 
 .dark {
+  /* Fix button text color */
+  --vp-button-brand-text: var(--ctp-frappe-crust) !important;
+  --vp-button-brand-hover-text: var(--ctp-frappe-crust) !important;
+
+  /* Solid Colors and Sponsor Color */
+  --vp-c-white: #c6d0f5;
+  --vp-c-black: #303446;
+  --vp-c-sponsor: #e78284;
+
   /* Background Colors */
   --vp-c-bg: #303446;
-  --vp-c-bg-alt: #232634;
-  --vp-c-bg-elv: #303446;
+  --vp-c-bg-alt: #292c3c;
+  --vp-c-bg-elv: #232634;
   --vp-c-bg-soft: #414559;
 
   /* Border Colors */
