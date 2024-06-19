@@ -2,18 +2,17 @@
 /* https://catppuccin.com/palette */
 
 /* Example: Brand Customization */
-/*
+
 :root {
   --vp-c-brand-1: var(--ctp-latte-red);
   --vp-c-brand-2: var(--ctp-latte-lavender);
   --vp-c-brand-3: var(--ctp-latte-mauve);
 }
 .dark {
-  --vp-c-brand-1: var(--ctp-frappe-red);
-  --vp-c-brand-2: var(--ctp-frappe-lavender);
-  --vp-c-brand-3: var(--ctp-frappe-mauve);
+  --vp-c-brand-1: var(--ctp-mocha-red);
+  --vp-c-brand-2: var(--ctp-mocha-lavender);
+  --vp-c-brand-3: var(--ctp-mocha-mauve);
 }
-*/
 
 :root {
   /* Solid Colors and Sponsor Color */
@@ -73,112 +72,112 @@
 
   --vp-c-indigo-1: rgb(30, 102, 245);
   --vp-c-indigo-2: rgb(21, 99, 255);
-  --vp-c-indigo-3: rgb(39, 77, 158);
+  --vp-c-indigo-3: rgb(30, 66, 146);
   --vp-c-indigo-soft: hsla(220, 91%, 34%, 0.14);
 
   --vp-c-purple-1: rgb(136, 57, 239);
   --vp-c-purple-2: rgb(134, 46, 250);
-  --vp-c-purple-3: rgb(92, 55, 155);
+  --vp-c-purple-3: rgb(83, 44, 143);
   --vp-c-purple-soft: hsla(266, 85%, 38%, 0.14);
 
   --vp-c-green-1: rgb(64, 160, 43);
   --vp-c-green-2: rgb(58, 171, 33);
-  --vp-c-green-3: rgb(56, 106, 57);
+  --vp-c-green-3: rgb(47, 95, 45);
   --vp-c-green-soft: hsla(109, 58%, 20%, 0.14);
 
   --vp-c-yellow-1: rgb(223, 142, 29);
   --vp-c-yellow-2: rgb(236, 144, 16);
-  --vp-c-yellow-3: rgb(136, 97, 50);
+  --vp-c-yellow-3: rgb(127, 86, 38);
   --vp-c-yellow-soft: hsla(35, 77%, 29%, 0.14);
 
   --vp-c-red-1: rgb(210, 15, 57);
   --vp-c-red-2: rgb(222, 4, 51);
-  --vp-c-red-3: rgb(129, 34, 64);
+  --vp-c-red-3: rgb(120, 23, 52);
   --vp-c-red-soft: hsla(347, 87%, 24%, 0.14);
 }
 
 .dark {
   /* Fix button text color */
-  --vp-button-brand-text: var(--ctp-frappe-crust) !important;
-  --vp-button-brand-hover-text: var(--ctp-frappe-crust) !important;
+  --vp-button-brand-text: var(--ctp-mocha-crust) !important;
+  --vp-button-brand-hover-text: var(--ctp-mocha-crust) !important;
 
   /* Solid Colors and Sponsor Color */
-  --vp-c-white: #c6d0f5;
-  --vp-c-black: #303446;
-  --vp-c-sponsor: #e78284;
+  --vp-c-white: #cdd6f4;
+  --vp-c-black: #1e1e2e;
+  --vp-c-sponsor: #f38ba8;
 
   /* Background Colors */
-  --vp-c-bg: #303446;
-  --vp-c-bg-alt: #292c3c;
-  --vp-c-bg-elv: #232634;
-  --vp-c-bg-soft: #414559;
+  --vp-c-bg: #1e1e2e;
+  --vp-c-bg-alt: #181825;
+  --vp-c-bg-elv: #11111b;
+  --vp-c-bg-soft: #313244;
 
   /* Border Colors */
-  --vp-c-border: #414559;
-  --vp-c-divider: #414559;
-  --vp-c-gutter: #51576d;
+  --vp-c-border: #313244;
+  --vp-c-divider: #313244;
+  --vp-c-gutter: #45475a;
 
   /* Text Colors */
-  --vp-c-text-1: #c6d0f5;
-  --vp-c-text-2: #b5bfe2;
-  --vp-c-text-3: #a5adce;
+  --vp-c-text-1: #cdd6f4;
+  --vp-c-text-2: #bac2de;
+  --vp-c-text-3: #a6adc8;
 
   /* Catppuccin Accents */
-  --ctp-frappe-rosewater: #f2d5cf;
-  --ctp-frappe-flamingo: #eebebe;
-  --ctp-frappe-pink: #f4b8e4;
-  --ctp-frappe-mauve: #ca9ee6;
-  --ctp-frappe-red: #e78284;
-  --ctp-frappe-maroon: #ea999c;
-  --ctp-frappe-peach: #ef9f76;
-  --ctp-frappe-yellow: #e5c890;
-  --ctp-frappe-green: #a6d189;
-  --ctp-frappe-teal: #81c8be;
-  --ctp-frappe-sky: #99d1db;
-  --ctp-frappe-sapphire: #85c1dc;
-  --ctp-frappe-blue: #8caaee;
-  --ctp-frappe-lavender: #babbf1;
-  --ctp-frappe-text: #c6d0f5;
-  --ctp-frappe-subtext1: #b5bfe2;
-  --ctp-frappe-subtext0: #a5adce;
-  --ctp-frappe-overlay2: #949cbb;
-  --ctp-frappe-overlay1: #838ba7;
-  --ctp-frappe-overlay0: #737994;
-  --ctp-frappe-surface2: #626880;
-  --ctp-frappe-surface1: #51576d;
-  --ctp-frappe-surface0: #414559;
-  --ctp-frappe-base: #303446;
-  --ctp-frappe-mantle: #292c3c;
-  --ctp-frappe-crust: #232634;
+  --ctp-mocha-rosewater: #f5e0dc;
+  --ctp-mocha-flamingo: #f2cdcd;
+  --ctp-mocha-pink: #f5c2e7;
+  --ctp-mocha-mauve: #cba6f7;
+  --ctp-mocha-red: #f38ba8;
+  --ctp-mocha-maroon: #eba0ac;
+  --ctp-mocha-peach: #fab387;
+  --ctp-mocha-yellow: #f9e2af;
+  --ctp-mocha-green: #a6e3a1;
+  --ctp-mocha-teal: #94e2d5;
+  --ctp-mocha-sky: #89dceb;
+  --ctp-mocha-sapphire: #74c7ec;
+  --ctp-mocha-blue: #89b4fa;
+  --ctp-mocha-lavender: #b4befe;
+  --ctp-mocha-text: #cdd6f4;
+  --ctp-mocha-subtext1: #bac2de;
+  --ctp-mocha-subtext0: #a6adc8;
+  --ctp-mocha-overlay2: #9399b2;
+  --ctp-mocha-overlay1: #7f849c;
+  --ctp-mocha-overlay0: #6c7086;
+  --ctp-mocha-surface2: #585b70;
+  --ctp-mocha-surface1: #45475a;
+  --ctp-mocha-surface0: #313244;
+  --ctp-mocha-base: #1e1e2e;
+  --ctp-mocha-mantle: #181825;
+  --ctp-mocha-crust: #11111b;
 
   /* Color Palette */
-  --vp-c-gray-1: rgb(81, 87, 109);
-  --vp-c-gray-2: rgb(65, 69, 89);
-  --vp-c-gray-3: rgb(48, 52, 70);
-  --vp-c-gray-soft: hsla(229, 19%, 53%, 0.14);
+  --vp-c-gray-1: rgb(69, 71, 90);
+  --vp-c-gray-2: rgb(49, 50, 68);
+  --vp-c-gray-3: rgb(30, 30, 46);
+  --vp-c-gray-soft: hsla(240, 21%, 45%, 0.14);
 
-  --vp-c-indigo-1: rgb(140, 170, 238);
-  --vp-c-indigo-2: rgb(133, 167, 245);
-  --vp-c-indigo-3: rgb(94, 111, 154);
-  --vp-c-indigo-soft: hsla(222, 74%, 54%, 0.14);
+  --vp-c-indigo-1: rgb(137, 180, 250);
+  --vp-c-indigo-2: rgb(133, 180, 255);
+  --vp-c-indigo-3: rgb(84, 105, 148);
+  --vp-c-indigo-soft: hsla(217, 92%, 56%, 0.14);
 
-  --vp-c-purple-1: rgb(202, 158, 230);
-  --vp-c-purple-2: rgb(204, 152, 236);
-  --vp-c-purple-3: rgb(125, 105, 150);
-  --vp-c-purple-soft: hsla(277, 59%, 56%, 0.14);
+  --vp-c-purple-1: rgb(203, 166, 247);
+  --vp-c-purple-2: rgb(203, 162, 252);
+  --vp-c-purple-3: rgb(117, 98, 147);
+  --vp-c-purple-soft: hsla(267, 84%, 61%, 0.14);
 
-  --vp-c-green-1: rgb(166, 209, 137);
-  --vp-c-green-2: rgb(164, 217, 129);
-  --vp-c-green-3: rgb(107, 131, 104);
-  --vp-c-green-soft: hsla(96, 44%, 48%, 0.14);
+  --vp-c-green-1: rgb(166, 227, 161);
+  --vp-c-green-2: rgb(161, 233, 155);
+  --vp-c-green-3: rgb(98, 129, 104);
+  --vp-c-green-soft: hsla(115, 54%, 56%, 0.14);
 
-  --vp-c-yellow-1: rgb(229, 200, 144);
-  --vp-c-yellow-2: rgb(236, 203, 138);
-  --vp-c-yellow-3: rgb(139, 126, 107);
-  --vp-c-yellow-soft: hsla(40, 62%, 53%, 0.14);
+  --vp-c-yellow-1: rgb(249, 226, 175);
+  --vp-c-yellow-2: rgb(253, 227, 171);
+  --vp-c-yellow-3: rgb(140, 128, 111);
+  --vp-c-yellow-soft: hsla(41, 86%, 63%, 0.14);
 
-  --vp-c-red-1: rgb(231, 130, 132);
-  --vp-c-red-2: rgb(239, 123, 125);
-  --vp-c-red-3: rgb(140, 91, 101);
-  --vp-c-red-soft: hsla(359, 68%, 51%, 0.14);
+  --vp-c-red-1: rgb(243, 139, 168);
+  --vp-c-red-2: rgb(249, 133, 166);
+  --vp-c-red-3: rgb(137, 85, 107);
+  --vp-c-red-soft: hsla(343, 81%, 55%, 0.14);
 }

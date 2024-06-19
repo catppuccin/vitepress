@@ -2,7 +2,7 @@
 /* https://catppuccin.com/palette */
 
 /* Example: Brand Customization */
-/*
+
 :root {
   --vp-c-brand-1: var(--ctp-latte-red);
   --vp-c-brand-2: var(--ctp-latte-lavender);
@@ -13,7 +13,6 @@
   --vp-c-brand-2: var(--ctp-macchiato-lavender);
   --vp-c-brand-3: var(--ctp-macchiato-mauve);
 }
-*/
 
 :root {
   /* Solid Colors and Sponsor Color */

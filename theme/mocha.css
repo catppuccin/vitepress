@@ -64,7 +64,6 @@
   --ctp-latte-base: #eff1f5;
   --ctp-latte-mantle: #e6e9ef;
   --ctp-latte-crust: #dce0e8;
-  
 
   /* Color Palette */
   --vp-c-gray-1: rgb(188, 192, 204);
@@ -151,7 +150,6 @@
   --ctp-mocha-base: #1e1e2e;
   --ctp-mocha-mantle: #181825;
   --ctp-mocha-crust: #11111b;
-  
 
   /* Color Palette */
   --vp-c-gray-1: rgb(69, 71, 90);
@@ -184,4 +182,3 @@
   --vp-c-red-3: rgb(137, 85, 107);
   --vp-c-red-soft: hsla(343, 81%, 55%, 0.14);
 }
-
