@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Catppuccin",
   description: "A VitePress theme",
   srcDir: "./src",
+  base: "/vitepress/",
   themeConfig: {
     logo: {
       src: "https://github.com/catppuccin/catppuccin/blob/main/assets/logos/exports/1544x1544_circle.png?raw=true",
