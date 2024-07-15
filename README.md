@@ -36,9 +36,9 @@
 
 ## Usage
 
-1. Copy the `theme/` folder to the `.vitepress/` folder of your VitePress project.
-2. Modify the `theme/index.js` file to import the flavor you want to use.
-3. Done! You can also modify the `theme/<flavor>.js` file to customize the theme.
+1. Install the theme using `npm install 42willow/vitepress#main`
+2. Import the theme as shown [here](./example/.vitepress/theme/index.ts)
+3. Add your preferred accent overrides to an `override.css` file as shown [here](./example/.vitepress/theme/override.css)
 
 > [!NOTE]
 > Latte is included in all flavors as the light mode variant.
