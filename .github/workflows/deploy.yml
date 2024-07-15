@@ -38,7 +38,7 @@ jobs:
       - name: Install dependencies
         run: bun install
       - name: Build with VitePress
-        run: bun run example:build
+        run: bun run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
