@@ -64,7 +64,7 @@
   --ctp-latte-base: #eff1f5;
   --ctp-latte-mantle: #e6e9ef;
   --ctp-latte-crust: #dce0e8;
-
+  
   /* Color Palette */
   --vp-c-gray-1: rgb(188, 192, 204);
   --vp-c-gray-2: rgb(204, 208, 218);
@@ -96,7 +96,6 @@
   --vp-c-red-3: rgb(120, 23, 52);
   --vp-c-red-soft: hsla(347, 87%, 24%, 0.14);
 }
-
 .dark {
   /* Fix button text color */
   --vp-button-brand-text: var(--ctp-mocha-crust) !important;
@@ -150,7 +149,7 @@
   --ctp-mocha-base: #1e1e2e;
   --ctp-mocha-mantle: #181825;
   --ctp-mocha-crust: #11111b;
-
+  
   /* Color Palette */
   --vp-c-gray-1: rgb(69, 71, 90);
   --vp-c-gray-2: rgb(49, 50, 68);

@@ -64,7 +64,7 @@
   --ctp-latte-base: #eff1f5;
   --ctp-latte-mantle: #e6e9ef;
   --ctp-latte-crust: #dce0e8;
-
+  
   /* Color Palette */
   --vp-c-gray-1: rgb(188, 192, 204);
   --vp-c-gray-2: rgb(204, 208, 218);
@@ -96,12 +96,10 @@
   --vp-c-red-3: rgb(123, 27, 58);
   --vp-c-red-soft: hsla(347, 87%, 24%, 0.14);
 }
-
 .dark {
   /* Fix button text color */
   --vp-button-brand-text: var(--ctp-macchiato-crust) !important;
   --vp-button-brand-hover-text: var(--ctp-macchiato-crust) !important;
-  --vp-button-brand-active-text: var(--ctp-macchiato-crust) !important;
 
   /* Solid Colors and Sponsor Color */
   --vp-c-white: #cad3f5;
@@ -151,7 +149,7 @@
   --ctp-macchiato-base: #24273a;
   --ctp-macchiato-mantle: #1e2030;
   --ctp-macchiato-crust: #181926;
-
+  
   /* Color Palette */
   --vp-c-gray-1: rgb(73, 77, 100);
   --vp-c-gray-2: rgb(54, 58, 79);

@@ -72,7 +72,6 @@ whiskers:
   {% for color_name, color in palette -%}
   --ctp-{{ paletteid }}-{{ color_name }}: #{{ color.hex }};
   {% endfor %}
-
   /* Color Palette */
   {%- if mode == "light" %}
   {%- set saturation = 10 %}
@@ -121,4 +120,4 @@ whiskers:
   --vp-c-red-3: {{palette.red | mix(color=base, amount=mix_amount) | css_rgb}};
   --vp-c-red-soft: {{palette.red | sub(lightness=lightness_amount) | mod(opacity=opacity_mod) | css_hsla}};
 }
-{% endfor %}
+{%- endfor %}
