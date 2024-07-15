@@ -41,7 +41,7 @@
 3. Done! You can also modify the `theme/<flavor>.js` file to customize the theme.
 
 > [!NOTE]
-> Frappe is included in all flavors as the light mode variant.
+> Latte is included in all flavors as the light mode variant.
 
 ## 💝 Thanks to
 
