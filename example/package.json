@@ -1,22 +1,20 @@
 {
-  "name": "@catppuccin/vitepress",
-  "type": "module",
-  "module": "index.ts",
   "description": "📝 Soothing pastel theme for VitePress",
   "author": "willow <42willow@pm.me>",
   "license": "MIT",
-  "files": [
-    "theme/"
-  ],
   "scripts": {
-    "format": "prettier --write ."
+    "build": "vitepress build",
+    "dev": "vitepress dev",
+    "preview": "vitepress preview"
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "prettier": "^3.3.3",
     "vitepress": "^1.2.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@catppuccin/vitepress": "../"
   }
 }
