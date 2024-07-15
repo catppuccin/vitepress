@@ -6,13 +6,14 @@
   "author": "willow <42willow@pm.me>",
   "license": "MIT",
   "scripts": {
-    "build": "vitepress build example",
-    "dev": "vitepress dev example",
-    "preview": "vitepress preview example",
+    "example:build": "vitepress build example",
+    "example:dev": "vitepress dev example",
+    "example:preview": "vitepress preview example",
     "format": "prettier --write ."
   },
   "devDependencies": {
     "@types/bun": "latest",
+    "prettier": "^3.3.3",
     "vitepress": "^1.2.3"
   },
   "peerDependencies": {

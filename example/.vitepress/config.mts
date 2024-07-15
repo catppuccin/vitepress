@@ -31,4 +31,4 @@ export default defineConfig({
 
     socialLinks: [{ icon: "github", link: "https://github.com/42willow/vitepress" }],
   },
-})
+});
