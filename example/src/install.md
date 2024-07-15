@@ -4,16 +4,16 @@
   ::: code-group
 
   ```bash [npm]
-  npm install 42willow/vitepress#main
+  npm install 42willow/vitepress
   ```
   ```bash [Yarn]
-  yarn add 42willow/vitepress#main
+  yarn add git+https://github.com/42willow/vitepress.git
   ```
   ```bash [pnpm]
-  pnpm add 42willow/vitepress#main
+  pnpm add github:42willow/vitepress
   ```
   ```bash [Bun]
-  bun add 42willow/vitepress#main
+  bun add github:42willow/vitepress
   ```
   :::
 

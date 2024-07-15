@@ -1,20 +1,18 @@
 {
-  "description": "📝 Soothing pastel theme for VitePress",
   "author": "willow <42willow@pm.me>",
-  "license": "MIT",
-  "scripts": {
-    "build": "vitepress build",
-    "dev": "vitepress dev",
-    "preview": "vitepress preview"
-  },
   "devDependencies": {
+    "@catppuccin/vitepress": "github:42willow/vitepress",
     "@types/bun": "latest",
     "vitepress": "^1.2.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
-  "dependencies": {
-    "@catppuccin/vitepress": "../"
+  "description": "📝 Soothing pastel theme for VitePress",
+  "license": "MIT",
+  "scripts": {
+    "build": "vitepress build",
+    "dev": "vitepress dev",
+    "preview": "vitepress preview"
   }
 }

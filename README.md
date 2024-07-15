@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Install the theme using `npm install 42willow/vitepress#main`
+1. Install the theme using `npm install 42willow/vitepress`
 2. Import the theme as shown [here](./example/.vitepress/theme/index.ts)
 3. Add your preferred accent overrides to an `override.css` file as shown [here](./example/.vitepress/theme/override.css)
 
