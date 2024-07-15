@@ -37,8 +37,10 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: bun install
+        working-directory: example
       - name: Build with VitePress
         run: bun run build
+        working-directory: example
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
