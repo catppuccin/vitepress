@@ -11,11 +11,8 @@ hero:
     alt: Catppuccin logo
   actions:
     - theme: brand
-      text: Specifications
-      link: /specs
-    - theme: alt
-      text: Style Guide
-      link: /style-guide
+      text: Install theme!
+      link: /install
 
 features:
   - title: catppuccin

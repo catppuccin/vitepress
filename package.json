@@ -6,9 +6,9 @@
   "author": "willow <42willow@pm.me>",
   "license": "MIT",
   "scripts": {
-    "build": "vitepress build docs",
-    "dev": "vitepress dev docs",
-    "preview": "vitepress preview docs",
+    "build": "vitepress build example",
+    "dev": "vitepress dev example",
+    "preview": "vitepress preview example",
     "format": "prettier --write ."
   },
   "devDependencies": {

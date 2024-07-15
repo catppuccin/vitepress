@@ -15,19 +15,19 @@ export default withMermaid(
       // https://vitepress.dev/reference/default-theme-config
       nav: [
         { text: "Home", link: "/" },
-        { text: "Specs", link: "/specs" },
+        { text: "Install", link: "/install" },
       ],
 
       sidebar: [
-        {
-          text: "Examples",
-          items: [
-            { text: "Specifications", link: "/specs" },
-            { text: "Style Guide", link: "/style-guide" },
-            { text: "Port Creation", link: "/port-creation" },
-            { text: "Translation table", link: "/translation-table" },
-          ],
-        },
+        // {
+        //   text: "Examples",
+        //   items: [
+        //     { text: "Specifications", link: "/specs" },
+        //     { text: "Style Guide", link: "/style-guide" },
+        //     { text: "Port Creation", link: "/port-creation" },
+        //     { text: "Translation table", link: "/translation-table" },
+        //   ],
+        // },
       ],
 
       socialLinks: [{ icon: "github", link: "https://github.com/42willow/vitepress" }],

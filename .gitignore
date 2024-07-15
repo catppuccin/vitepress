@@ -1,7 +1,7 @@
 # VitePress
 
-docs/.vitepress/dist
-docs/.vitepress/cache
+example/.vitepress/dist
+example/.vitepress/cache
 
 
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore

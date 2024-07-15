@@ -1,0 +1,5 @@
+# Install
+
+::: info
+Coming soon
+:::
