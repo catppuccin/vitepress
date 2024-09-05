@@ -37,8 +37,18 @@
 ## Usage
 
 1. Install the theme using `npm install 42willow/vitepress`
-2. Import the theme as shown [here](./example/.vitepress/theme/index.ts)
-3. Add your preferred accent overrides to an `override.css` file as shown [here](./example/.vitepress/theme/override.css)
+2. Import the theme
+  
+`.vitepress/theme/index.ts`
+
+```ts
+import DefaultTheme from "vitepress/theme";
+import "@catppuccin/vitepress/theme/<flavor>/<accent>.css"
+
+export default DefaultTheme;
+```
+
+See [extending the default theme](https://vitepress.dev/guide/extending-default-theme#extending-the-default-theme) for more information.
 
 > [!NOTE]
 > Latte is included in all flavors as the light mode variant.
