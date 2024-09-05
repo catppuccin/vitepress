@@ -44,7 +44,7 @@ whiskers:
   --vp-c-bg: #{{ palette.base.hex }};
   --vp-c-bg-alt: #{{ palette.mantle.hex }};
   --vp-c-bg-elv: #{{ palette.crust.hex }};
-  --vp-c-bg-soft: #{{ palette.surface0.hex }};
+  --vp-c-bg-soft: #{{ palette.mantle.hex }};
 
   /* Border Colors */
   --vp-c-border: #{{ palette.surface0.hex }};

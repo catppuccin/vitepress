@@ -17,7 +17,7 @@
   --vp-c-bg: #eff1f5;
   --vp-c-bg-alt: #e6e9ef;
   --vp-c-bg-elv: #dce0e8;
-  --vp-c-bg-soft: #ccd0da;
+  --vp-c-bg-soft: #e6e9ef;
 
   /* Border Colors */
   --vp-c-border: #ccd0da;
@@ -107,7 +107,7 @@
   --vp-c-bg: #1e1e2e;
   --vp-c-bg-alt: #181825;
   --vp-c-bg-elv: #11111b;
-  --vp-c-bg-soft: #313244;
+  --vp-c-bg-soft: #181825;
 
   /* Border Colors */
   --vp-c-border: #313244;
