@@ -1,7 +1,6 @@
 {
   "name": "@catppuccin/vitepress",
   "type": "module",
-  "module": "index.ts",
   "version": "0.1.0",
   "description": "📝 Soothing pastel theme for VitePress",
   "author": "willow <42willow@pm.me>",

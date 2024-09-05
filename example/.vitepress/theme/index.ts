@@ -1,5 +1,5 @@
 import DefaultTheme from "vitepress/theme";
-import '@catppuccin/vitepress/theme/mocha.css';
-import "./override.css";
+
+import "@catppuccin/vitepress/theme/mocha/pink.css"
 
 export default DefaultTheme;
