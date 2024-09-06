@@ -17,16 +17,15 @@ export default defineConfig({
       { text: "Install", link: "/install" },
     ],
 
+
+
     sidebar: [
-      // {
-      //   text: "Examples",
-      //   items: [
-      //     { text: "Specifications", link: "/specs" },
-      //     { text: "Style Guide", link: "/style-guide" },
-      //     { text: "Port Creation", link: "/port-creation" },
-      //     { text: "Translation table", link: "/translation-table" },
-      //   ],
-      // },
+      {
+        items: [
+          { text: 'Installation', link: '/install' },
+          { text: 'Components', link: '/components' }
+        ]
+      }
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/42willow/vitepress" }],
