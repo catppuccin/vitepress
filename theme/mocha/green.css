@@ -5,7 +5,7 @@
 :root {
   /* Accent Color */
   --vp-c-brand-1: #40a02b;
-  --vp-c-brand-2: #40a02b;
+  --vp-c-brand-2: rgb(57, 140, 38);
   --vp-c-brand-3: #40a02b;
 
   /* Solid Colors and Sponsor Color */
@@ -92,10 +92,11 @@
   /* Fix button text color */
   --vp-button-brand-text: var(--ctp-mocha-crust) !important;
   --vp-button-brand-hover-text: var(--ctp-mocha-crust) !important;
+  --vp-button-brand-active-text: var(--ctp-mocha-crust) !important;
 
   /* Accent Color */
   --vp-c-brand-1: #a6e3a1;
-  --vp-c-brand-2: #a6e3a1;
+  --vp-c-brand-2: rgb(148, 221, 141);
   --vp-c-brand-3: #a6e3a1;
 
   /* Solid Colors and Sponsor Color */

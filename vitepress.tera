@@ -23,11 +23,12 @@ whiskers:
   /* Fix button text color */
   --vp-button-brand-text: var(--ctp-{{ paletteid }}-crust) !important;
   --vp-button-brand-hover-text: var(--ctp-{{ paletteid }}-crust) !important;
+  --vp-button-brand-active-text: var(--ctp-mocha-crust) !important;
 
   {% endif -%}
   /* Accent Color */
   --vp-c-brand-1: #{{ palette[accent].hex }};
-  --vp-c-brand-2: #{{ palette[accent].hex }};
+  --vp-c-brand-2: {{ palette[accent] | sub(lightness=5) | css_rgb }};
   --vp-c-brand-3: #{{ palette[accent].hex }};
 
   /* Solid Colors and Sponsor Color */
