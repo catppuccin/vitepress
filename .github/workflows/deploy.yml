@@ -37,14 +37,14 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: bun install
-        working-directory: example
+        working-directory: site
       - name: Build with VitePress
         run: bun run build
-        working-directory: example
+        working-directory: site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: example/.vitepress/dist
+          path: site/.vitepress/dist
 
   # Deployment job
   deploy:
