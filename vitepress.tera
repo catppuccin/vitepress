@@ -57,6 +57,12 @@ whiskers:
   --vp-c-text-2: #{{ palette.subtext1.hex }};
   --vp-c-text-3: #{{ palette.subtext0.hex }};
 
+  /* Callout Colors */
+  --vp-c-default-soft: #{{ palette.surface0.hex }};
+  --vp-c-tip-soft: {{ palette.blue | mod(opacity=0.2) | css_hsla }};
+  --vp-c-warning-soft: {{ palette.yellow | mod(opacity=0.2) | css_hsla }};
+  --vp-c-danger-soft: {{ palette.red | mod(opacity=0.2) | css_hsla }};
+
   /* Catppuccin Accents */
   {% for color_name, color in palette -%}
   --ctp-{{ paletteid }}-{{ color_name }}: #{{ color.hex }};

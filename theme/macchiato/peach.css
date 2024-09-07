@@ -29,6 +29,12 @@
   --vp-c-text-2: #5c5f77;
   --vp-c-text-3: #6c6f85;
 
+  /* Callout Colors */
+  --vp-c-default-soft: #ccd0da;
+  --vp-c-tip-soft: hsla(220, 91%, 54%, 0.20);
+  --vp-c-warning-soft: hsla(35, 77%, 49%, 0.20);
+  --vp-c-danger-soft: hsla(347, 87%, 44%, 0.20);
+
   /* Catppuccin Accents */
   --ctp-latte-rosewater: #dc8a78;
   --ctp-latte-flamingo: #dd7878;
@@ -119,6 +125,12 @@
   --vp-c-text-1: #cad3f5;
   --vp-c-text-2: #b8c0e0;
   --vp-c-text-3: #a5adcb;
+
+  /* Callout Colors */
+  --vp-c-default-soft: #363a4f;
+  --vp-c-tip-soft: hsla(220, 83%, 75%, 0.20);
+  --vp-c-warning-soft: hsla(40, 70%, 78%, 0.20);
+  --vp-c-danger-soft: hsla(351, 74%, 73%, 0.20);
 
   /* Catppuccin Accents */
   --ctp-macchiato-rosewater: #f4dbd6;
