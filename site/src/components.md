@@ -44,9 +44,9 @@ export default { // Highlighted
 export default {
   data() {
     return {
-      msg: 'Error', // [!code error]
-      msg: 'Warning' // [!code warning]
-    }
-  }
-}
+      msg: "Error", // [!code error]
+      msg: "Warning", // [!code warning]
+    };
+  },
+};
 ```
