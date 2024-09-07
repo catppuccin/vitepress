@@ -6,6 +6,12 @@ export default defineConfig({
   description: "A VitePress theme",
   srcDir: "./src",
   base: "/vitepress/",
+  markdown: {
+    theme: {
+      light: 'catppuccin-latte',
+      dark: 'catppuccin-mocha',
+    },
+  },
   themeConfig: {
     logo: {
       src: "https://github.com/catppuccin/catppuccin/blob/main/assets/logos/exports/1544x1544_circle.png?raw=true",
@@ -16,9 +22,6 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Install", link: "/install" },
     ],
-
-
-
     sidebar: [
       {
         items: [
@@ -27,7 +30,6 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [{ icon: "github", link: "https://github.com/42willow/vitepress" }],
   },
 });

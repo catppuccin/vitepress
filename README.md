@@ -37,21 +37,37 @@
 ## Usage
 
 1. Install the theme using `npm install 42willow/vitepress`
+
 2. Import the theme
-  
-`.vitepress/theme/index.ts`
+    `.vitepress/theme/index.ts`
 
-```ts
-import DefaultTheme from "vitepress/theme";
-import "@catppuccin/vitepress/theme/<flavor>/<accent>.css"
+    ```ts
+    import DefaultTheme from "vitepress/theme";
+    import "@catppuccin/vitepress/theme/<flavor>/<accent>.css"
 
-export default DefaultTheme;
-```
+    export default DefaultTheme;
+    ```
 
-See [extending the default theme](https://vitepress.dev/guide/extending-default-theme#extending-the-default-theme) for more information.
+    See [extending the default theme](https://vitepress.dev/guide/extending-default-theme#extending-the-default-theme) for more information.
 
-> [!NOTE]
-> Latte is included in all flavors as the light mode variant.
+    > [!NOTE]
+    > Latte is included in all flavors as the light mode variant.
+
+3. Set syntax highlighting to Catppuccin
+    `.vitepress/config.mts`
+
+    ```ts
+    export default defineConfig({
+      // ...
+      markdown: {
+        theme: {
+          light: 'catppuccin-latte',
+          dark: 'catppuccin-<flavor>',
+        },
+      },
+      // ...
+    });
+    ```
 
 ## 💝 Thanks to
 
