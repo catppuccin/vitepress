@@ -50,9 +50,6 @@
 
     See [extending the default theme](https://vitepress.dev/guide/extending-default-theme#extending-the-default-theme) for more information.
 
-    > [!NOTE]
-    > Latte is included in all flavors as the light mode variant.
-
 3. Set syntax highlighting to Catppuccin
     `.vitepress/config.mts`
 
@@ -68,6 +65,9 @@
       // ...
     });
     ```
+
+> [!NOTE]
+> Latte is included in all flavors as the light mode variant.
 
 ## 💝 Thanks to
 
