@@ -59,10 +59,15 @@ whiskers:
   --vp-c-text-3: {{ palette.subtext0.hex }};
 
   /* Callout Colors */
-  --vp-c-default-soft: {{ palette.surface0.hex }};
-  --vp-c-tip-soft: {{ palette.blue | mod(opacity=0.2) | css_hsla }};
+  --vp-c-tip-soft: {{ palette.green | mod(opacity=0.2) | css_hsla }};
   --vp-c-warning-soft: {{ palette.yellow | mod(opacity=0.2) | css_hsla }};
   --vp-c-danger-soft: {{ palette.red | mod(opacity=0.2) | css_hsla }};
+  --vp-c-caution-soft: {{ palette.red | mod(opacity=0.2) | css_hsla }};
+  --vp-c-important-soft: {{ palette.mauve | mod(opacity=0.2) | css_hsla }};
+
+  --vp-custom-block-info-bg: {{ palette.sky | mod(opacity=0.2) | css_hsla }};
+  --vp-custom-block-note-bg: {{ palette.blue | mod(opacity=0.2) | css_hsla }};
+  --vp-custom-block-details-bg: {{ palette.surface0.hex }};
 
   /* Catppuccin Accents */
   {% for color_name, color in palette -%}
@@ -90,6 +95,8 @@ whiskers:
   {%- else %}
   --vp-c-gray-soft: {{palette.base | add(lightness=lightness_amount_gray) | mod(opacity=opacity_mod) | css_hsla}};
   {%- endif %}
+
+  --vp-c-default-soft: #{{ palette.surface0.hex }};
 
   --vp-c-indigo-1: {{palette.blue | css_rgb}};
   --vp-c-indigo-2: {{palette.blue | add(saturation=saturation) | css_rgb}};

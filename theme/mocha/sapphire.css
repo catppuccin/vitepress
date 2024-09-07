@@ -30,10 +30,15 @@
   --vp-c-text-3: #6c6f85;
 
   /* Callout Colors */
-  --vp-c-default-soft: #ccd0da;
-  --vp-c-tip-soft: hsla(220, 91%, 54%, 0.20);
+  --vp-c-tip-soft: hsla(109, 58%, 40%, 0.20);
   --vp-c-warning-soft: hsla(35, 77%, 49%, 0.20);
   --vp-c-danger-soft: hsla(347, 87%, 44%, 0.20);
+  --vp-c-caution-soft: hsla(347, 87%, 44%, 0.20);
+  --vp-c-important-soft: hsla(266, 85%, 58%, 0.20);
+
+  --vp-custom-block-info-bg: hsla(197, 96%, 46%, 0.20);
+  --vp-custom-block-note-bg: hsla(220, 91%, 54%, 0.20);
+  --vp-custom-block-details-bg: #ccd0da;
 
   /* Catppuccin Accents */
   --ctp-latte-rosewater: #dc8a78;
@@ -68,6 +73,8 @@
   --vp-c-gray-2: rgb(204, 208, 218);
   --vp-c-gray-3: rgb(239, 241, 245);
   --vp-c-gray-soft: hsla(220, 23%, 65%, 0.14);
+
+  --vp-c-default-soft: ##ccd0da;
 
   --vp-c-indigo-1: rgb(30, 102, 245);
   --vp-c-indigo-2: rgb(21, 99, 255);
@@ -133,10 +140,15 @@
   --vp-c-text-3: #a6adc8;
 
   /* Callout Colors */
-  --vp-c-default-soft: #313244;
-  --vp-c-tip-soft: hsla(217, 92%, 76%, 0.20);
+  --vp-c-tip-soft: hsla(115, 54%, 76%, 0.20);
   --vp-c-warning-soft: hsla(41, 86%, 83%, 0.20);
   --vp-c-danger-soft: hsla(343, 81%, 75%, 0.20);
+  --vp-c-caution-soft: hsla(343, 81%, 75%, 0.20);
+  --vp-c-important-soft: hsla(267, 84%, 81%, 0.20);
+
+  --vp-custom-block-info-bg: hsla(189, 71%, 73%, 0.20);
+  --vp-custom-block-note-bg: hsla(217, 92%, 76%, 0.20);
+  --vp-custom-block-details-bg: #313244;
 
   /* Catppuccin Accents */
   --ctp-mocha-rosewater: #f5e0dc;
@@ -171,6 +183,8 @@
   --vp-c-gray-2: rgb(49, 50, 68);
   --vp-c-gray-3: rgb(30, 30, 46);
   --vp-c-gray-soft: hsla(240, 21%, 45%, 0.14);
+
+  --vp-c-default-soft: ##313244;
 
   --vp-c-indigo-1: rgb(137, 180, 250);
   --vp-c-indigo-2: rgb(133, 180, 255);
