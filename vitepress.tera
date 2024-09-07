@@ -67,7 +67,7 @@ whiskers:
 
   --vp-custom-block-info-bg: {{ palette.sky | mod(opacity=0.2) | css_hsla }};
   --vp-custom-block-note-bg: {{ palette.blue | mod(opacity=0.2) | css_hsla }};
-  --vp-custom-block-details-bg: #{{ palette.surface0.hex }};
+  --vp-custom-block-details-bg: {{ palette.surface0.hex }};
 
   /* Catppuccin Accents */
   {% for color_name, color in palette -%}
