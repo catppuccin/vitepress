@@ -35,10 +35,10 @@
 
    :::
 
-   See ["Extending the Default Theme | VitePress"](https://vitepress.dev/guide/extending-default-theme#extending-the-default-theme) for more information.
-
    > [!NOTE]
    > Latte is included in all flavors as the light mode variant.
+
+   See ["Extending the Default Theme | VitePress"](https://vitepress.dev/guide/extending-default-theme#extending-the-default-theme) for more information.
 
 3. Configure syntax highlighting in your VitePress configuration file:
 
@@ -50,7 +50,7 @@
      markdown: {
        theme: {
          light: 'catppuccin-latte',
-         dark: 'catppuccin-mocha',
+         dark: 'catppuccin-<flavor>',
        },
      },
      // ...
