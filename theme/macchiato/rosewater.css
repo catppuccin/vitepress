@@ -38,7 +38,7 @@
 
   --vp-custom-block-info-bg: hsla(197, 96%, 46%, 0.20);
   --vp-custom-block-note-bg: hsla(220, 91%, 54%, 0.20);
-  --vp-custom-block-details-bg: ##ccd0da;
+  --vp-custom-block-details-bg: #ccd0da;
 
   /* Catppuccin Accents */
   --ctp-latte-rosewater: #dc8a78;
@@ -148,7 +148,7 @@
 
   --vp-custom-block-info-bg: hsla(189, 60%, 73%, 0.20);
   --vp-custom-block-note-bg: hsla(220, 83%, 75%, 0.20);
-  --vp-custom-block-details-bg: ##363a4f;
+  --vp-custom-block-details-bg: #363a4f;
 
   /* Catppuccin Accents */
   --ctp-macchiato-rosewater: #f4dbd6;
