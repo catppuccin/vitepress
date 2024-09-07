@@ -36,9 +36,10 @@
 
 ## Usage
 
-1. Install the theme using `npm install 42willow/vitepress`
+1. Install the theme package to your project with `npm install @catppuccin/vitepress`.
 
-2. Import the theme
+2. Add the theme to your VitePress theme configuration file:
+
    `.vitepress/theme/index.ts`
 
    ```ts
@@ -48,9 +49,10 @@
    export default DefaultTheme;
    ```
 
-   See [extending the default theme](https://vitepress.dev/guide/extending-default-theme#extending-the-default-theme) for more information.
+   See ["Extending the Default Theme | VitePress"](https://vitepress.dev/guide/extending-default-theme#extending-the-default-theme) for more information.
 
-3. Set syntax highlighting to Catppuccin
+3. Configure syntax highlighting in your VitePress configuration file:
+
    `.vitepress/config.mts`
 
    ```ts

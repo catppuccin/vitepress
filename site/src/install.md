@@ -1,27 +1,28 @@
 # Usage
 
-1. Install the theme using your preferred package manager
+1. Install the theme package to your project with your preferred package manager:
+
    ::: code-group
 
    ```bash [npm]
-   npm install 42willow/vitepress
+   npm install @catppuccin/vitepress
    ```
 
    ```bash [Yarn]
-   yarn add git+https://github.com/42willow/vitepress.git
+   yarn add @catppuccin/vitepress
    ```
 
    ```bash [pnpm]
-   pnpm add github:42willow/vitepress
+   pnpm add @catppuccin/vitepress
    ```
 
    ```bash [Bun]
-   bun add github:42willow/vitepress
+   bun add @catppuccin/vitepress
    ```
 
    :::
 
-2. Import the theme
+2. Add the theme to your VitePress theme configuration file:
 
    ::: code-group
 
@@ -34,12 +35,13 @@
 
    :::
 
-   See [extending the default theme](https://vitepress.dev/guide/extending-default-theme#extending-the-default-theme) for more information.
+   See ["Extending the Default Theme | VitePress"](https://vitepress.dev/guide/extending-default-theme#extending-the-default-theme) for more information.
 
    > [!NOTE]
    > Latte is included in all flavors as the light mode variant.
 
-3. Set syntax highlighting to Catppuccin
+3. Configure syntax highlighting in your VitePress configuration file:
+
    ::: code-group
 
    ```ts{6} [.vitepress/config.mts]
