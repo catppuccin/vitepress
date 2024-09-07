@@ -22,14 +22,17 @@
    :::
 
 2. Import the theme
-   `.vitepress/theme/index.ts`
 
-   ```ts{2}
+   ::: code-group
+
+   ```ts {2} [.vitepress/theme/index.ts]
    import DefaultTheme from "vitepress/theme";
-   import "@catppuccin/vitepress/theme/<flavor>/<accent>.css"
+   import "@catppuccin/vitepress/theme/<flavor>/<accent>.css";
 
    export default DefaultTheme;
    ```
+
+   :::
 
    See [extending the default theme](https://vitepress.dev/guide/extending-default-theme#extending-the-default-theme) for more information.
 
@@ -37,20 +40,22 @@
    > Latte is included in all flavors as the light mode variant.
 
 3. Set syntax highlighting to Catppuccin
-   `.vitepress/config.mts`
+   ::: code-group
 
-   ```ts{6}
+   ```ts{6} [.vitepress/config.mts]
    export default defineConfig({
      // ...
      markdown: {
        theme: {
          light: 'catppuccin-latte',
-         dark: 'catppuccin-<flavor>',
+         dark: 'catppuccin-mocha',
        },
      },
      // ...
    });
    ```
+
+   :::
 
 &nbsp;
 
