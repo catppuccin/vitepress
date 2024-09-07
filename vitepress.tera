@@ -96,7 +96,7 @@ whiskers:
   --vp-c-gray-soft: {{palette.base | add(lightness=lightness_amount_gray) | mod(opacity=opacity_mod) | css_hsla}};
   {%- endif %}
 
-  --vp-c-default-soft: #{{ palette.surface0.hex }};
+  --vp-c-default-soft: {{ palette.surface0.hex }};
 
   --vp-c-indigo-1: {{palette.blue | css_rgb}};
   --vp-c-indigo-2: {{palette.blue | add(saturation=saturation) | css_rgb}};

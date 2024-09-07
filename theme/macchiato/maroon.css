@@ -74,7 +74,7 @@
   --vp-c-gray-3: rgb(239, 241, 245);
   --vp-c-gray-soft: hsla(220, 23%, 65%, 0.14);
 
-  --vp-c-default-soft: ##ccd0da;
+  --vp-c-default-soft: #ccd0da;
 
   --vp-c-indigo-1: rgb(30, 102, 245);
   --vp-c-indigo-2: rgb(21, 99, 255);
@@ -184,7 +184,7 @@
   --vp-c-gray-3: rgb(36, 39, 58);
   --vp-c-gray-soft: hsla(232, 24%, 49%, 0.14);
 
-  --vp-c-default-soft: ##363a4f;
+  --vp-c-default-soft: #363a4f;
 
   --vp-c-indigo-1: rgb(138, 173, 244);
   --vp-c-indigo-2: rgb(132, 171, 250);
