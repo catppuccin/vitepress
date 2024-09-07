@@ -1,29 +1,34 @@
 # Usage
 
 1. Install the theme using your preferred package manager:
-  ::: code-group
 
-  ```bash [npm]
-  npm install 42willow/vitepress
-  ```
-  ```bash [Yarn]
-  yarn add git+https://github.com/42willow/vitepress.git
-  ```
-  ```bash [pnpm]
-  pnpm add github:42willow/vitepress
-  ```
-  ```bash [Bun]
-  bun add github:42willow/vitepress
-  ```
-  :::
+::: code-group
+
+```bash [npm]
+npm install 42willow/vitepress
+```
+
+```bash [Yarn]
+yarn add git+https://github.com/42willow/vitepress.git
+```
+
+```bash [pnpm]
+pnpm add github:42willow/vitepress
+```
+
+```bash [Bun]
+bun add github:42willow/vitepress
+```
+
+:::
 
 2. Import the theme
-  
+
 `.vitepress/theme/index.ts`
 
 ```ts
 import DefaultTheme from "vitepress/theme";
-import "@catppuccin/vitepress/theme/<flavor>/<accent>.css"
+import "@catppuccin/vitepress/theme/<flavor>/<accent>.css";
 
 export default DefaultTheme;
 ```

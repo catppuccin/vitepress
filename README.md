@@ -38,12 +38,12 @@
 
 1. Install the theme using `npm install 42willow/vitepress`
 2. Import the theme
-  
+
 `.vitepress/theme/index.ts`
 
 ```ts
 import DefaultTheme from "vitepress/theme";
-import "@catppuccin/vitepress/theme/<flavor>/<accent>.css"
+import "@catppuccin/vitepress/theme/<flavor>/<accent>.css";
 
 export default DefaultTheme;
 ```

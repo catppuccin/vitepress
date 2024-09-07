@@ -17,15 +17,13 @@ export default defineConfig({
       { text: "Install", link: "/install" },
     ],
 
-
-
     sidebar: [
       {
         items: [
-          { text: 'Installation', link: '/install' },
-          { text: 'Components', link: '/components' }
-        ]
-      }
+          { text: "Installation", link: "/install" },
+          { text: "Components", link: "/components" },
+        ],
+      },
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/42willow/vitepress" }],
