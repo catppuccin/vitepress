@@ -28,4 +28,9 @@ export default defineConfig({
 
     socialLinks: [{ icon: "github", link: "https://github.com/42willow/vitepress" }],
   },
+
+  // https://vitepress.dev/guide/markdown#syntax-highlighting-in-code-blocks
+  markdown: {
+    theme: { light: "catppuccin-latte", dark: "catppuccin-macchiato" },
+  },
 });
