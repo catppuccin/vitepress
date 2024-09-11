@@ -12,7 +12,6 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@types/bun": "latest",
     "prettier": "^3.3.3",
     "vitepress": "^1.2.3"
   },
