@@ -3,7 +3,10 @@
   "type": "module",
   "version": "0.1.0",
   "description": "📝 Soothing pastel theme for VitePress",
-  "author": "willow <42willow@pm.me>",
+  "author": "Catppuccin Org <releases@catppuccin.com>",
+  "contributors": [
+    "willow <42willow@pm.me>"
+  ],
   "license": "MIT",
   "files": [
     "theme/"
