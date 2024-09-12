@@ -5,7 +5,6 @@ export default defineConfig({
   title: "Catppuccin",
   description: "A VitePress theme",
   srcDir: "./src",
-  base: "/vitepress/",
   // https://vitepress.dev/guide/markdown#syntax-highlighting-in-code-blocks
   markdown: {
     theme: {
