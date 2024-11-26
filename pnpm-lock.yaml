@@ -14,7 +14,7 @@ importers:
     devDependencies:
       prettier:
         specifier: ^3.3.3
-        version: 3.3.3
+        version: 3.4.0
       vitepress:
         specifier: ^1.2.3
         version: 1.5.0(@algolia/client-search@5.15.0)(@types/node@20.12.14)(postcss@8.4.49)(search-insights@2.17.2)(typescript@5.6.2)
@@ -636,8 +636,8 @@ packages:
   preact@10.24.3:
     resolution: {integrity: sha512-Z2dPnBnMUfyQfSQ+GBdsGa16hz35YmLmtTLhM169uW944hYL6xzTYkJjC07j+Wosz733pMWx0fgON3JNw1jJQA==}
 
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+  prettier@3.4.0:
+    resolution: {integrity: sha512-/OXNZcLyWkfo13ofOW5M7SLh+k5pnIs07owXK2teFpnfaOEcycnSy7HQxldaVX1ZP/7Q8oO1eDuQJNwbomQq5Q==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1388,7 +1388,7 @@ snapshots:
 
   preact@10.24.3: {}
 
-  prettier@3.3.3: {}
+  prettier@3.4.0: {}
 
   property-information@6.5.0: {}
 
