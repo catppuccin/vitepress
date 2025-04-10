@@ -5,6 +5,15 @@ export default defineConfig({
   title: "Catppuccin",
   description: "A VitePress theme",
   srcDir: "./src",
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "https://raw.githubusercontent.com/catppuccin/catppuccin/refs/heads/main/assets/logos/exports/1544x1544_circle.png",
+      },
+    ],
+  ],
   // https://vitepress.dev/guide/markdown#syntax-highlighting-in-code-blocks
   markdown: {
     theme: {
