@@ -116,6 +116,9 @@
   --vp-button-brand-hover-text: var(--ctp-mocha-crust) !important;
   --vp-button-brand-active-text: var(--ctp-mocha-crust) !important;
 
+  /* Fix badge background color */
+  --vp-badge-tip-bg:  hsla(343, 81%, 75%, 0.20);
+
   /* Accent Color */
   --vp-c-brand-1: #f38ba8;
   --vp-c-brand-2: rgb(241, 115, 151);
