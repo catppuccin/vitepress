@@ -26,10 +26,10 @@ whiskers:
   --vp-button-brand-hover-text: var(--ctp-{{ paletteid }}-crust) !important;
   --vp-button-brand-active-text: var(--ctp-mocha-crust) !important;
 
+  {% endif -%}
   /* Fix badge background color */
   --vp-badge-tip-bg:  {{ palette[accent] | mod(opacity=0.2) | css_hsla }};
 
-  {% endif -%}
   /* Accent Color */
   --vp-c-brand-1: {{ palette[accent].hex }};
   --vp-c-brand-2: {{ palette[accent] | sub(lightness=5) | css_rgb }};

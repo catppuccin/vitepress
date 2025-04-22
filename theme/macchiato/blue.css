@@ -3,6 +3,9 @@
 
 
 :root {
+  /* Fix badge background color */
+  --vp-badge-tip-bg:  hsla(220, 91%, 54%, 0.20);
+
   /* Accent Color */
   --vp-c-brand-1: #1e66f5;
   --vp-c-brand-2: rgb(11, 87, 239);
