@@ -2,12 +2,31 @@
   "name": "@catppuccin/vitepress",
   "type": "module",
   "version": "0.1.1",
+  "license": "MIT",
   "description": "📝 Soothing pastel theme for VitePress",
-  "author": "Catppuccin Org <releases@catppuccin.com>",
+  "author": {
+    "name": "Catppuccin Org",
+    "email": "releases@catppuccin.com",
+    "url": "https://catppuccin.com"
+  },
   "contributors": [
     "willow <42willow@pm.me>"
   ],
-  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true,
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/catppuccin/vitepress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/catppuccin/vitepress/issues"
+  },
+  "sponsor": {
+    "url": "https://opencollective.com/catppuccin"
+  },
   "files": [
     "theme/"
   ],
