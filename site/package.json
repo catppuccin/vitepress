@@ -14,5 +14,5 @@
     "dev": "vitepress dev",
     "preview": "vitepress preview"
   },
-  "packageManager": "pnpm@10.33.2"
+  "packageManager": "pnpm@10.33.3"
 }
