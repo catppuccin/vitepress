@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/catppuccin/vitepress/compare/v0.1.2...v0.1.3) (2026-08-11)
+
+
+### Bug Fixes
+
+* **site:** add `esbuild` to pnpm `allowBuild` ([#73](https://github.com/catppuccin/vitepress/issues/73)) ([f04bb75](https://github.com/catppuccin/vitepress/commit/f04bb75192f828c4dc81785c0902e0d3b0a4fd99))
+
 ## [0.1.2](https://github.com/catppuccin/vitepress/compare/v0.1.1...v0.1.2) (2025-04-27)
 
 
