@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/catppuccin/vitepress/compare/v0.1.3...v0.1.4) (2026-08-19)
+
+
+### Miscellaneous Chores
+
+* release v0.1.4 ([#80](https://github.com/catppuccin/vitepress/issues/80)) ([f7c364d](https://github.com/catppuccin/vitepress/commit/f7c364d6df635e02a0cc2e87bf538241139ddd34))
+
 ## [0.1.3](https://github.com/catppuccin/vitepress/compare/v0.1.2...v0.1.3) (2026-08-11)
 
 
